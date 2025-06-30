@@ -1,0 +1,41 @@
+credentials:
+  usernames:
+    product_owner:
+      email: po@example.com
+      name: Rui Lopes(PO)
+      password: "$2b$12$nB4F5W4C4mjW4tEaes0Iw.ebva2gH1rwkNKYZ6jBT4RHHMs.HhF5e"
+      role: product_owner
+    question_owner:
+      email: qo@example.com
+      name: Diogo Lemos(QO)
+      password: "$2b$12$VZkB8j24lHkeuEyEgMEvn.oZqu/Gw6nMYhKPzieZ3g2zKHB0yOQle"
+      role: question_owner
+    dev_user:
+      email: dev@example.com
+      name: Pedro Ferreira(Dev)
+      password: "$2b$12$hCxMKfNUXCxUJ7Wm.cBjR.HKwfM6nNT9B/tbLMn5TlPaYsCsMbfI."
+      role: developer
+    decision_maker:
+      email: dm@example.com
+      name: Joao Silva(DM)
+      password: "$2b$12$6nLg.g7TqstwXJfu4iX.VuY5UDwyXX0qvyDC6WytWyoWJfh5mApB2"
+      role: decision_maker
+    admin:
+      email: admin@example.com
+      name: ADMIN
+      password: "$2b$12$zqP3ez2wVp2yrCn2NvoFCexZE5XSKEfw.mFmIqBOaewEKgFG7EYQG"
+      role: admin
+
+cookie:
+  name: "tracker_cookie"
+  key: "supersecretkey"  
+  expiry_days: 30
+
+preauthorized:
+  emails: []
+
+
+  #product_owner po123
+  #question_owner qo123	
+  #dev_user	dev123	
+  #decision_maker	dm123
